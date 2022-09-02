@@ -1,5 +1,5 @@
 function doGet() {
-    return HtmlService.createTemplateFromFile(`web`).evaluate().setTitle('Agenda GAS') ;
+    return HtmlService.createTemplateFromFile('web').evaluate();
   }
   
   function obtenerDatosHTML(nombre) {
